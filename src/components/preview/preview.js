@@ -23,6 +23,7 @@ function Preview () {
         <div className='container'> 
         {console.log(text)}
             <h1>Previewer</h1> 
+            <h3>Type some markdown in the left box.</h3>
             <div className='previewer'>
                 <textarea 
                 value={text}
